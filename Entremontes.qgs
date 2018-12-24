@@ -1,0 +1,1193 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.15">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="20180802T105621_N0206_ndvi20180911110222933" source="C:/Users/UserUNIR1/Desktop/FINAL_WIT/ImagenesSentinel2/imagenes/20180802T105621_N0206_ndvi.tiff" name="20180802T105621_N0206_ndvi">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="20180807T105619_N0206_ndvi20180911120601580" source="C:/Users/UserUNIR1/Desktop/FINAL_WIT/ImagenesSentinel2/imagenes/20180807T105619_N0206_ndvi.tiff" name="20180807T105619_N0206_ndvi">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="20180817T105619_N0206_ndvi20180911120710200" source="C:/Users/UserUNIR1/Desktop/FINAL_WIT/ImagenesSentinel2/imagenes/20180817T105619_N0206_ndvi.tiff" name="20180817T105619_N0206_ndvi">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="20180822T105621_N0206_ndvi20180911120837589" source="C:/Users/UserUNIR1/Desktop/FINAL_WIT/ImagenesSentinel2/imagenes/20180822T105621_N0206_ndvi.tiff" name="20180822T105621_N0206_ndvi">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="20180827T110029_N0206_ndvi20180911121010447" source="C:/Users/UserUNIR1/Desktop/FINAL_WIT/ImagenesSentinel2/imagenes/20180827T110029_N0206_ndvi.tiff" name="20180827T110029_N0206_ndvi">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="RUCULTIVO20180907133012797" source="C:/Users/UserUNIR1/Desktop/FINAL_WIT/RUCULTIVO_ENTREMONTES/RUCULTIVO.DBF" name="RUCULTIVO">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="RUSUBPARCELA20180907133007846" source="C:/Users/UserUNIR1/Desktop/FINAL_WIT/RUSUBPARCELA_ENTREMONTES/RUSUBPARCELA.DBF" name="RUSUBPARCELA">
+      <customproperties>
+        <property key="overview" value="1"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="PARCELA20180907132730245" source="C:/Users/UserUNIR1/Desktop/FINAL_WIT/PARCELA_ENTREMONTES/PARCELA.SHP" name="PARCELA">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="T30SVJ_20180827T110029_TCI20180907133425278" source="C:/Users/USERUN~1/AppData/Local/Temp/Rar$DRa4240.23870/S2B_MSIL1C_20180827T110029_N0206_R094_T30SVJ_20180827T164339.SAFE/GRANULE/L1C_T30SVJ_A007699_20180827T110638/IMG_DATA/T30SVJ_20180827T110029_TCI.jp2" name="T30SVJ_20180827T110029_TCI">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>491760.02380946313496679</xmin>
+      <ymin>4376177.99988678842782974</ymin>
+      <xmax>507993.02380957116838545</xmax>
+      <ymax>4388945.99988660961389542</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=30 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>1007</srsid>
+        <srid>3042</srid>
+        <authid>EPSG:3042</authid>
+        <description>ETRS89 / ETRS-TM30</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:32630" srcDatumTransform="-1" destDatumTransform="-1" layerid="20180802T105621_N0206_ndvi20180911110222933"/>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:32630" srcDatumTransform="-1" destDatumTransform="-1" layerid="20180817T105619_N0206_ndvi20180911120710200"/>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:32630" srcDatumTransform="-1" destDatumTransform="-1" layerid="20180822T105621_N0206_ndvi20180911120837589"/>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:32630" srcDatumTransform="-1" destDatumTransform="-1" layerid="20180827T110029_N0206_ndvi20180911121010447"/>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:32630" srcDatumTransform="-1" destDatumTransform="-1" layerid="T30SVJ_20180827T110029_B0320180907133407926"/>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:32630" srcDatumTransform="-1" destDatumTransform="-1" layerid="20180802T105621_N0208_ndvi20180911120452607"/>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:32630" srcDatumTransform="-1" destDatumTransform="-1" layerid="T30SVJ_20180827T110029_B0420180907133348934"/>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:32630" srcDatumTransform="-1" destDatumTransform="-1" layerid="20180802T105621_N0206_ndwi20180911110525438"/>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:3042" srcDatumTransform="-1" destDatumTransform="-1" layerid="PARCELA20180907132730245"/>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:32630" srcDatumTransform="-1" destDatumTransform="-1" layerid="20180807T105619_N0206_ndvi20180911120601580"/>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:32630" srcDatumTransform="-1" destDatumTransform="-1" layerid="T30SVJ_20180827T110029_B0820180907133207584"/>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:32630" srcDatumTransform="-1" destDatumTransform="-1" layerid="T30SVJ_20180827T110029_TCI20180907133425278"/>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:32630" srcDatumTransform="-1" destDatumTransform="-1" layerid="20180802T105621_N0206_ndvi20180911105535391"/>
+      <layer_coordinate_transform destAuthId="EPSG:3042" srcAuthId="EPSG:32630" srcDatumTransform="-1" destDatumTransform="-1" layerid="20180802T105621_N0206_ndwi20180911120246855"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>PARCELA20180907132730245</item>
+      <item>RUSUBPARCELA20180907133007846</item>
+      <item>RUCULTIVO20180907133012797</item>
+      <item>T30SVJ_20180827T110029_TCI20180907133425278</item>
+      <item>20180802T105621_N0206_ndvi20180911110222933</item>
+      <item>20180807T105619_N0206_ndvi20180911120601580</item>
+      <item>20180817T105619_N0206_ndvi20180911120710200</item>
+      <item>20180822T105621_N0206_ndvi20180911120837589</item>
+      <item>20180827T110029_N0206_ndvi20180911121010447</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="20180802T105621_N0206_ndvi" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="20180802T105621_N0206_ndvi20180911110222933" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="20180807T105619_N0206_ndvi" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="20180807T105619_N0206_ndvi20180911120601580" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="20180817T105619_N0206_ndvi" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="20180817T105619_N0206_ndvi20180911120710200" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="20180822T105621_N0206_ndvi" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="20180822T105621_N0206_ndvi20180911120837589" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="20180827T110029_N0206_ndvi" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="20180827T110029_N0206_ndvi20180911121010447" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="RUCULTIVO" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="RUCULTIVO20180907133012797" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="RUSUBPARCELA" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="1" layerid="RUSUBPARCELA20180907133007846" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="PARCELA" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="PARCELA20180907132730245" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="T30SVJ_20180827T110029_TCI" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="T30SVJ_20180827T110029_TCI20180907133425278" visible="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>491990</xmin>
+        <ymin>4376520</ymin>
+        <xmax>507450</xmax>
+        <ymax>4388680</ymax>
+      </extent>
+      <id>20180802T105621_N0206_ndvi20180911110222933</id>
+      <datasource>./ImagenesSentinel2/imagenes/20180802T105621_N0206_ndvi.tiff</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>20180802T105621_N0206_ndvi</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=30 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3114</srsid>
+          <srid>32630</srid>
+          <authid>EPSG:32630</authid>
+          <description>WGS 84 / UTM zone 30N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="0.331075" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="0.0303261" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0.0303" label="0.0303" color="#f7fcf5"/>
+              <item alpha="255" value="0.0694" label="0.0694" color="#e5f5e0"/>
+              <item alpha="255" value="0.109" label="0.109" color="#c7e9c0"/>
+              <item alpha="255" value="0.148" label="0.148" color="#a1d99b"/>
+              <item alpha="255" value="0.187" label="0.187" color="#74c476"/>
+              <item alpha="255" value="0.226" label="0.226" color="#41ab5d"/>
+              <item alpha="255" value="0.265" label="0.265" color="#238b45"/>
+              <item alpha="255" value="0.301" label="0.301" color="#006d2c"/>
+              <item alpha="255" value="0.331" label="0.331" color="#00441b"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>491990</xmin>
+        <ymin>4376520</ymin>
+        <xmax>507450</xmax>
+        <ymax>4388680</ymax>
+      </extent>
+      <id>20180807T105619_N0206_ndvi20180911120601580</id>
+      <datasource>./ImagenesSentinel2/imagenes/20180807T105619_N0206_ndvi.tiff</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>20180807T105619_N0206_ndvi</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=30 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3114</srsid>
+          <srid>32630</srid>
+          <authid>EPSG:32630</authid>
+          <description>WGS 84 / UTM zone 30N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="0.331075" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="0.0303261" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0.0303" label="0.0303" color="#f7fcf5"/>
+              <item alpha="255" value="0.0694" label="0.0694" color="#e5f5e0"/>
+              <item alpha="255" value="0.109" label="0.109" color="#c7e9c0"/>
+              <item alpha="255" value="0.148" label="0.148" color="#a1d99b"/>
+              <item alpha="255" value="0.187" label="0.187" color="#74c476"/>
+              <item alpha="255" value="0.226" label="0.226" color="#41ab5d"/>
+              <item alpha="255" value="0.265" label="0.265" color="#238b45"/>
+              <item alpha="255" value="0.301" label="0.301" color="#006d2c"/>
+              <item alpha="255" value="0.331" label="0.331" color="#00441b"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>491990</xmin>
+        <ymin>4376520</ymin>
+        <xmax>507450</xmax>
+        <ymax>4388680</ymax>
+      </extent>
+      <id>20180817T105619_N0206_ndvi20180911120710200</id>
+      <datasource>./ImagenesSentinel2/imagenes/20180817T105619_N0206_ndvi.tiff</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>20180817T105619_N0206_ndvi</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=30 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3114</srsid>
+          <srid>32630</srid>
+          <authid>EPSG:32630</authid>
+          <description>WGS 84 / UTM zone 30N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="0.331075" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="0.0303261" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0.0303" label="0.0303" color="#f7fcf5"/>
+              <item alpha="255" value="0.0694" label="0.0694" color="#e5f5e0"/>
+              <item alpha="255" value="0.109" label="0.109" color="#c7e9c0"/>
+              <item alpha="255" value="0.148" label="0.148" color="#a1d99b"/>
+              <item alpha="255" value="0.187" label="0.187" color="#74c476"/>
+              <item alpha="255" value="0.226" label="0.226" color="#41ab5d"/>
+              <item alpha="255" value="0.265" label="0.265" color="#238b45"/>
+              <item alpha="255" value="0.301" label="0.301" color="#006d2c"/>
+              <item alpha="255" value="0.331" label="0.331" color="#00441b"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>491990</xmin>
+        <ymin>4376520</ymin>
+        <xmax>507450</xmax>
+        <ymax>4388680</ymax>
+      </extent>
+      <id>20180822T105621_N0206_ndvi20180911120837589</id>
+      <datasource>./ImagenesSentinel2/imagenes/20180822T105621_N0206_ndvi.tiff</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>20180822T105621_N0206_ndvi</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=30 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3114</srsid>
+          <srid>32630</srid>
+          <authid>EPSG:32630</authid>
+          <description>WGS 84 / UTM zone 30N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="0.331075" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="0.0303261" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0.0303" label="0.0303" color="#f7fcf5"/>
+              <item alpha="255" value="0.0694" label="0.0694" color="#e5f5e0"/>
+              <item alpha="255" value="0.109" label="0.109" color="#c7e9c0"/>
+              <item alpha="255" value="0.148" label="0.148" color="#a1d99b"/>
+              <item alpha="255" value="0.187" label="0.187" color="#74c476"/>
+              <item alpha="255" value="0.226" label="0.226" color="#41ab5d"/>
+              <item alpha="255" value="0.265" label="0.265" color="#238b45"/>
+              <item alpha="255" value="0.301" label="0.301" color="#006d2c"/>
+              <item alpha="255" value="0.331" label="0.331" color="#00441b"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>491990</xmin>
+        <ymin>4376520</ymin>
+        <xmax>507450</xmax>
+        <ymax>4388680</ymax>
+      </extent>
+      <id>20180827T110029_N0206_ndvi20180911121010447</id>
+      <datasource>./ImagenesSentinel2/imagenes/20180827T110029_N0206_ndvi.tiff</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>20180827T110029_N0206_ndvi</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=30 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3114</srsid>
+          <srid>32630</srid>
+          <authid>EPSG:32630</authid>
+          <description>WGS 84 / UTM zone 30N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="0.331075" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="0.0303261" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0.0303" label="0.0303" color="#f7fcf5"/>
+              <item alpha="255" value="0.0694" label="0.0694" color="#e5f5e0"/>
+              <item alpha="255" value="0.109" label="0.109" color="#c7e9c0"/>
+              <item alpha="255" value="0.148" label="0.148" color="#a1d99b"/>
+              <item alpha="255" value="0.187" label="0.187" color="#74c476"/>
+              <item alpha="255" value="0.226" label="0.226" color="#41ab5d"/>
+              <item alpha="255" value="0.265" label="0.265" color="#238b45"/>
+              <item alpha="255" value="0.301" label="0.301" color="#006d2c"/>
+              <item alpha="255" value="0.331" label="0.331" color="#00441b"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>491996.41100000002188608</xmin>
+        <ymin>4376525.24899999983608723</ymin>
+        <xmax>507440.86849999998230487</xmax>
+        <ymax>4388674.07450000010430813</ymax>
+      </extent>
+      <id>PARCELA20180907132730245</id>
+      <datasource>./PARCELA_ENTREMONTES/PARCELA.SHP</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>PARCELA</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=30 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1007</srsid>
+          <srid>3042</srid>
+          <authid>EPSG:3042</authid>
+          <description>ETRS89 / ETRS-TM30</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="MAPA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DELEGACIO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MUNICIPIO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MASA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="HOJA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="TIPO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="PARCELA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COORX">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COORY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="VIA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NUMERO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NUMERODUP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NUMSYMBOL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AREA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FECHAALTA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FECHABAJA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NINTERNO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="PCAT1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="PCAT2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EJERCICIO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NUM_EXP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CONTROL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="REFCAT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="48,184,109,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="no"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>MAPA</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="MAPA" index="0" name=""/>
+        <alias field="DELEGACIO" index="1" name=""/>
+        <alias field="MUNICIPIO" index="2" name=""/>
+        <alias field="MASA" index="3" name=""/>
+        <alias field="HOJA" index="4" name=""/>
+        <alias field="TIPO" index="5" name=""/>
+        <alias field="PARCELA" index="6" name=""/>
+        <alias field="COORX" index="7" name=""/>
+        <alias field="COORY" index="8" name=""/>
+        <alias field="VIA" index="9" name=""/>
+        <alias field="NUMERO" index="10" name=""/>
+        <alias field="NUMERODUP" index="11" name=""/>
+        <alias field="NUMSYMBOL" index="12" name=""/>
+        <alias field="AREA" index="13" name=""/>
+        <alias field="FECHAALTA" index="14" name=""/>
+        <alias field="FECHABAJA" index="15" name=""/>
+        <alias field="NINTERNO" index="16" name=""/>
+        <alias field="PCAT1" index="17" name=""/>
+        <alias field="PCAT2" index="18" name=""/>
+        <alias field="EJERCICIO" index="19" name=""/>
+        <alias field="NUM_EXP" index="20" name=""/>
+        <alias field="CONTROL" index="21" name=""/>
+        <alias field="REFCAT" index="22" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;REFCAT&quot;" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="MAPA"/>
+          <column width="-1" hidden="0" type="field" name="DELEGACIO"/>
+          <column width="-1" hidden="0" type="field" name="MUNICIPIO"/>
+          <column width="-1" hidden="0" type="field" name="MASA"/>
+          <column width="-1" hidden="0" type="field" name="HOJA"/>
+          <column width="-1" hidden="0" type="field" name="TIPO"/>
+          <column width="-1" hidden="0" type="field" name="PARCELA"/>
+          <column width="-1" hidden="0" type="field" name="COORX"/>
+          <column width="-1" hidden="0" type="field" name="COORY"/>
+          <column width="-1" hidden="0" type="field" name="VIA"/>
+          <column width="-1" hidden="0" type="field" name="NUMERO"/>
+          <column width="-1" hidden="0" type="field" name="NUMERODUP"/>
+          <column width="-1" hidden="0" type="field" name="NUMSYMBOL"/>
+          <column width="-1" hidden="0" type="field" name="AREA"/>
+          <column width="-1" hidden="0" type="field" name="FECHAALTA"/>
+          <column width="-1" hidden="0" type="field" name="FECHABAJA"/>
+          <column width="-1" hidden="0" type="field" name="NINTERNO"/>
+          <column width="-1" hidden="0" type="field" name="PCAT1"/>
+          <column width="-1" hidden="0" type="field" name="PCAT2"/>
+          <column width="-1" hidden="0" type="field" name="EJERCICIO"/>
+          <column width="-1" hidden="0" type="field" name="NUM_EXP"/>
+          <column width="-1" hidden="0" type="field" name="CONTROL"/>
+          <column width="-1" hidden="0" type="field" name="REFCAT"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- codificación: utf-8 -*-
+"""
+Los formularios de QGIS pueden tener una función de Python que
+es llamada cuando se abre el formulario.
+
+Use esta función para añadir lógica extra a sus formularios.
+
+Introduzca el nombre de la función en el campo
+"Python Init function".
+Sigue un ejemplo:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="MAPA" expression=""/>
+        <default field="DELEGACIO" expression=""/>
+        <default field="MUNICIPIO" expression=""/>
+        <default field="MASA" expression=""/>
+        <default field="HOJA" expression=""/>
+        <default field="TIPO" expression=""/>
+        <default field="PARCELA" expression=""/>
+        <default field="COORX" expression=""/>
+        <default field="COORY" expression=""/>
+        <default field="VIA" expression=""/>
+        <default field="NUMERO" expression=""/>
+        <default field="NUMERODUP" expression=""/>
+        <default field="NUMSYMBOL" expression=""/>
+        <default field="AREA" expression=""/>
+        <default field="FECHAALTA" expression=""/>
+        <default field="FECHABAJA" expression=""/>
+        <default field="NINTERNO" expression=""/>
+        <default field="PCAT1" expression=""/>
+        <default field="PCAT2" expression=""/>
+        <default field="EJERCICIO" expression=""/>
+        <default field="NUM_EXP" expression=""/>
+        <default field="CONTROL" expression=""/>
+        <default field="REFCAT" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE( "MAPA", '&lt;NULL>' )</previewExpression>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>RUCULTIVO20180907133012797</id>
+      <datasource>./RUCULTIVO_ENTREMONTES/RUCULTIVO.DBF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>RUCULTIVO</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="DELEGACIO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CC">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DENOMINA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="VUE_PIES">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="REGADIO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="DELEGACIO" index="0" name=""/>
+        <alias field="CC" index="1" name=""/>
+        <alias field="DENOMINA" index="2" name=""/>
+        <alias field="VUE_PIES" index="3" name=""/>
+        <alias field="REGADIO" index="4" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;CC&quot;" sortOrder="1">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="DELEGACIO"/>
+          <column width="-1" hidden="0" type="field" name="CC"/>
+          <column width="201" hidden="0" type="field" name="DENOMINA"/>
+          <column width="-1" hidden="0" type="field" name="VUE_PIES"/>
+          <column width="-1" hidden="0" type="field" name="REGADIO"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="DELEGACIO" expression=""/>
+        <default field="CC" expression=""/>
+        <default field="DENOMINA" expression=""/>
+        <default field="VUE_PIES" expression=""/>
+        <default field="REGADIO" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE("DELEGACIO", '&lt;NULL>')||', '||COALESCE("CC", '&lt;NULL>')||', '||COALESCE("DENOMINA", '&lt;NULL>')||', '||COALESCE("VUE_PIES", '&lt;NULL>')||', '||COALESCE("REGADIO", '&lt;NULL>')</previewExpression>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>RUSUBPARCELA20180907133007846</id>
+      <datasource>./RUSUBPARCELA_ENTREMONTES/RUSUBPARCELA.DBF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>RUSUBPARCELA</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="DELEGACIO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MUNICIPIO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="REFCAT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="PCAT1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="PCAT2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="HOJA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MASA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="PARCELA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SUBPARCELA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="TIPOSUBP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CC">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="IP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SUPERFICIE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="DELEGACIO" index="0" name=""/>
+        <alias field="MUNICIPIO" index="1" name=""/>
+        <alias field="REFCAT" index="2" name=""/>
+        <alias field="PCAT1" index="3" name=""/>
+        <alias field="PCAT2" index="4" name=""/>
+        <alias field="HOJA" index="5" name=""/>
+        <alias field="MASA" index="6" name=""/>
+        <alias field="PARCELA" index="7" name=""/>
+        <alias field="SUBPARCELA" index="8" name=""/>
+        <alias field="TIPOSUBP" index="9" name=""/>
+        <alias field="CC" index="10" name=""/>
+        <alias field="IP" index="11" name=""/>
+        <alias field="SUPERFICIE" index="12" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;CC&quot;" sortOrder="1">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="DELEGACIO"/>
+          <column width="-1" hidden="0" type="field" name="MUNICIPIO"/>
+          <column width="-1" hidden="0" type="field" name="REFCAT"/>
+          <column width="-1" hidden="0" type="field" name="PCAT1"/>
+          <column width="-1" hidden="0" type="field" name="PCAT2"/>
+          <column width="-1" hidden="0" type="field" name="HOJA"/>
+          <column width="-1" hidden="0" type="field" name="MASA"/>
+          <column width="-1" hidden="0" type="field" name="PARCELA"/>
+          <column width="-1" hidden="0" type="field" name="SUBPARCELA"/>
+          <column width="-1" hidden="0" type="field" name="TIPOSUBP"/>
+          <column width="-1" hidden="0" type="field" name="CC"/>
+          <column width="-1" hidden="0" type="field" name="IP"/>
+          <column width="-1" hidden="0" type="field" name="SUPERFICIE"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles>
+          <fieldstyle fieldname="CC">
+            <style background_color="#000000" rule="@value " name="vo" text_color="#000000">
+              <font description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+            </style>
+          </fieldstyle>
+        </fieldstyles>
+      </conditionalstyles>
+      <defaults>
+        <default field="DELEGACIO" expression=""/>
+        <default field="MUNICIPIO" expression=""/>
+        <default field="REFCAT" expression=""/>
+        <default field="PCAT1" expression=""/>
+        <default field="PCAT2" expression=""/>
+        <default field="HOJA" expression=""/>
+        <default field="MASA" expression=""/>
+        <default field="PARCELA" expression=""/>
+        <default field="SUBPARCELA" expression=""/>
+        <default field="TIPOSUBP" expression=""/>
+        <default field="CC" expression=""/>
+        <default field="IP" expression=""/>
+        <default field="SUPERFICIE" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE("DELEGACIO", '&lt;NULL>')||', '||COALESCE("MUNICIPIO", '&lt;NULL>')||', '||COALESCE("REFCAT", '&lt;NULL>')||', '||COALESCE("PCAT1", '&lt;NULL>')||', '||COALESCE("PCAT2", '&lt;NULL>')||', '||COALESCE("HOJA", '&lt;NULL>')||', '||COALESCE("MASA", '&lt;NULL>')||', '||COALESCE("PARCELA", '&lt;NULL>')||', '||COALESCE("SUBPARCELA", '&lt;NULL>')||', '||COALESCE("TIPOSUBP", '&lt;NULL>')||', '||COALESCE("CC", '&lt;NULL>')||', '||COALESCE("IP", '&lt;NULL>')||', '||COALESCE("SUPERFICIE", '&lt;NULL>')</previewExpression>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>399960</xmin>
+        <ymin>4290240</ymin>
+        <xmax>509760</xmax>
+        <ymax>4400040</ymax>
+      </extent>
+      <id>T30SVJ_20180827T110029_TCI20180907133425278</id>
+      <datasource>../../../USERUN~1/AppData/Local/Temp/Rar$DRa4240.23870/S2B_MSIL1C_20180827T110029_N0206_R094_T30SVJ_20180827T164339.SAFE/GRANULE/L1C_T30SVJ_A007699_20180827T110638/IMG_DATA/T30SVJ_20180827T110029_TCI.jp2</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>T30SVJ_20180827T110029_TCI</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=30 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3114</srsid>
+          <srid>32630</srid>
+          <authid>EPSG:32630</authid>
+          <description>WGS 84 / UTM zone 30N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>PARCELA20180907132730245</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
